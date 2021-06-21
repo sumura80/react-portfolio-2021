@@ -84,12 +84,24 @@ const About = () => {
         </div>
         <div className="row aboutMeContainer">
           <div className="col-sm-4 mb-4">
-          <img src={'../images/work_6.png'} alt="..." class="img-thumbnail" />
+          <img src={'../images/work_6.png'} alt="form img" class="img-thumbnail" />
           </div>
           <div className="col-sm-8">
             <div className="lead mb-4">⑥Formの送信と登録情報の表示</div>
             <p>「input」から入力したデータを「onChange,(e.target.value)」を使い、登録情報として保存。入力した情報をスプレッド構文で追加。「 [...people]」</p>
             <p>登録すると、登録内容がボタンの下に表示され、[x]マークで削除可能。こちらは、falseを使用。</p>
+          </div>
+        </div>
+
+        <div className="row aboutMeContainer">
+          <div className="col-sm-4 mb-4">
+          <img src={'../images/work_7.png'} alt="job search" class="img-thumbnail" />
+          </div>
+          <div className="col-sm-8">
+            <div className="lead mb-4">⑦Indexにより表示を変える検索</div>
+            <p>「Jobsdata」からでたを取得し、「descriptions.map((task, index) 」で該当する求人情報を表示</p>
+            <p>(company, title, salary, descriptions, category, jobimg  = jobs[value])で表示する内容を変数化</p>
+            <p>(index === value && 'jobBtnActive')クラスにアクティブがわかるように、ボタンに色を追加。</p>
           </div>
         </div>
 

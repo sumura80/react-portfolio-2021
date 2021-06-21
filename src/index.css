@@ -170,3 +170,32 @@ nav{
 .aboutMeWrap{
   margin-bottom: 120px;
 }
+.jsBox{
+  border: 1px solid #b9dfd3;
+  border-radius: 5px;
+  padding: 10px 0px;
+}
+
+.jobsearchWrap{
+  margin-bottom: 120px;
+  padding: 15px;
+}
+.jobBtnActive{
+  background-color: #2ca2b8;
+  color: #FFF;
+}
+.jobIcon{
+  color:#2ca2b8;
+  font-size: 1.6em;
+}
+.jobSize{
+  font-size: 1.4em;
+}
+.jobimgsize{
+  max-width: 400px;
+}
+.jobDescription{
+  border: 1px solid #2ca2b8;
+  padding: 15px;
+  border-radius: 5px;
+}

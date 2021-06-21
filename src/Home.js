@@ -10,6 +10,7 @@ import Modal from './Modal';
 import Form from './Form'
 import About from './About'
 import Shop from './Shop'
+import JobSearch from './JobSearch'
 import {BrowserRouter as Router , Switch, Route} from 'react-router-dom';
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
        <Modal /> 
        <FruitQuiz /> 
        <Form />
+       <JobSearch />
 
      
 
