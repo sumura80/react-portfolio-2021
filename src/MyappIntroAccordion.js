@@ -14,7 +14,9 @@ const MyappIntroAccordion = () => {
           <div className="appName d-flex justify-content-between">
           <div className="eachAppName">Life Abroad <span><img src="../images/lifeabroad.png" alt="lifeabroad" style={{width:"40px"}} /></span></div> 
             
-             <button className="btn btn-outline-primary" onClick={()=>setShowLA(!showLA)}>詳細を見る</button></div>
+             <button className="btn btn-outline-primary" onClick={()=>setShowLA(!showLA)}>
+               {showLA ? '閉じる' :'詳細を見る'}
+               </button></div>
               { showLA && <p className="appIntroduction">
               Life Abroad (ライフアブロード) 日本の文化や習慣などを英語で説明 <br />
               技術：HTML + Bootstrap <br />
@@ -27,7 +29,9 @@ const MyappIntroAccordion = () => {
         <div className="eachAppName">Worholizer
         <span><img src="../images/worholizer.png" alt="worholizer" style={{width:"40px",paddingLeft:'15px'}} /></span>
         </div> 
-          <button className="btn btn-outline-warning" onClick={()=>setShowWorholizer(!showWorholizer)}>詳細を見る</button></div>
+          <button className="btn btn-outline-warning" onClick={()=>setShowWorholizer(!showWorholizer)}>
+          {showWorholizer ? '閉じる' :'詳細を見る'}
+            </button></div>
         {showWorholizer && <p className="appIntroduction">
         Worholizer (ワーホライザー)：ワーキングホリデーに関する情報共有サイト<br />
         技術：Laravel + S3 + Heroku<br />
@@ -43,7 +47,8 @@ const MyappIntroAccordion = () => {
             MedPlus
             <span><img src="../images/medplus.png" alt="medplus" style={{width:"40px",paddingLeft:'15px'}} /></span>
             </div> 
-          <button className="btn btn-outline-success" onClick={()=>setShowMed(!showMed)}>詳細を見る
+          <button className="btn btn-outline-success" onClick={()=>setShowMed(!showMed)}>
+          {showMed ? '閉じる' :'詳細を見る'}
           </button>
         
         </div>
@@ -63,7 +68,9 @@ const MyappIntroAccordion = () => {
           Childcare 
           <span><img src="../images/childcare.png" alt="childcare" style={{width:"50px",paddingLeft:'15px'}} /></span>
           </div>
-          <button className="btn btn-outline-danger" onClick={()=>setShowChildcare(!showChildcare)}>詳細を見る</button></div>
+          <button className="btn btn-outline-danger" onClick={()=>setShowChildcare(!showChildcare)}>
+          {showChildcare ? '閉じる' :'詳細を見る'}
+            </button></div>
         { showChildcare && <p className="appIntroduction">
         Childcare JAPAN (チャイルドケアジャパン) 日本の子供教育に関する情報を英語で発信 <br />
         技術：Laravel + S3 + Heroku <br />
