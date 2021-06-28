@@ -11,12 +11,15 @@ import Form from './Form'
 import About from './About'
 import Shop from './Shop'
 import JobSearch from './JobSearch'
+import Shopping from './Shopping'
 import {BrowserRouter as Router , Switch, Route} from 'react-router-dom';
+
 
 const Home = () => {
   return (
     <div>
-           <div className="container">
+      <div className="container">
+       
        <JavaScriptWrap /> 
        <MyappIntroAccordion /> 
        <Dessert /> 
@@ -24,6 +27,7 @@ const Home = () => {
        <FruitQuiz /> 
        <Form />
        <JobSearch />
+       <Shopping />
 
      
 

@@ -177,7 +177,7 @@ nav{
 }
 
 .jobsearchWrap{
-  margin-bottom: 120px;
+  margin-bottom: 10px;
   padding: 15px;
 }
 .jobBtnActive{
@@ -198,4 +198,28 @@ nav{
   border: 1px solid #2ca2b8;
   padding: 15px;
   border-radius: 5px;
+  margin-bottom: 80px;
+}
+
+.cookingWrap{
+  background-color: rgb(250, 243, 229);
+  padding: 30px;
+  border-radius: 5px;
+  margin-bottom: 100px;
+  padding-bottom: 60px;
+}
+.shoppingInput{
+  max-width:400px
+}
+.curryImg{
+  width: 80px;
+}
+.ingredientContent{
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.list-item {
+  border-bottom: 1px solid #cecece;
+  padding-bottom: 5px;
 }

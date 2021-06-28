@@ -105,6 +105,18 @@ const About = () => {
           </div>
         </div>
 
+        <div className="row aboutMeContainer">
+          <div className="col-sm-4 mb-4">
+          <img src={'../images/work_8.png'} alt="job search" class="img-thumbnail" />
+          </div>
+          <div className="col-sm-8">
+            <div className="lead mb-4">⑧CRUD機能を含めた投稿</div>
+            <p>編集は、「id」を取得し、該当するものの内容を変更する。</p>
+            <p>Contextを用いて、子要素でデータの受け渡しを実装。</p>
+            <p>新規登録は、「材料追加」、編集は「編集」とボタン名を動的に変更。</p>
+          </div>
+        </div>
+
 
 
         <div className="row aboutMeContainer">

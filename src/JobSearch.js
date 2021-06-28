@@ -13,7 +13,7 @@ const JobSearch = () => {
     <div className="container jobsearchWrap">
       <hr />
       <div className="job-search-title">
-        <h3 className="mb-4">仕事検索</h3>
+        <h3 className="mb-4">⑦仕事検索</h3>
       </div>
       <div className="row">
         <div className="jobLeftbox col-sm-3">
@@ -59,7 +59,7 @@ const JobSearch = () => {
           </div>
         </div>
       </div>
-      
+      <hr />
     </div>
   );
 };
